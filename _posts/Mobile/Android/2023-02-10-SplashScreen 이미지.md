@@ -4,6 +4,7 @@ date: 2023-02-10 19:35:00 +/-0000
 categories: [Mobile, Android]
 tags: [android, problem]
 toc: true
+pin: true
 ---
 
 # 문제 상황
