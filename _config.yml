@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: SUS               # the main title
+title: 흔한 앱 개발자 고딩             # the main title
 
-tagline: 흔한 앱 개발자 고딩 블로그    # it will display as the sub-title
+tagline: 흔한 예비 앱 개발자 고등학생의 블로그    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  iOS와 Android 같은 앱 개발 관련 정보나 프로그래밍 관련 정보를 공유하는 예비 앱 개발자 고딩 블로그 입니다.
+  iOS와 Android 같은 앱 개발 관련 정보나 프로그래밍 관련 정보를 공유하는 흔한 예비 앱 개발자 고딩 블로그 입니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://JangWoojun.github.io'
