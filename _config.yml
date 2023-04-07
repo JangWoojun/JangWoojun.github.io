@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
@@ -21,10 +21,10 @@ timezone: Asia/Seoul
 
 title: SUS               # the main title
 
-tagline: 흔한 예비 앱 개발자 고등학생 블로그    # it will display as the sub-title
+tagline: 흔한 앱 개발자 고딩 블로그    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  iOS와 Android 같은 앱 개발 관련 정보나 프로그래밍 관련 정보를 공유하는 예비 앱 개발자 고등학생의 블로그 입니다.
+  iOS와 Android 같은 앱 개발 관련 정보나 프로그래밍 관련 정보를 공유하는 예비 앱 개발자 고딩 블로그 입니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://JangWoojun.github.io'
@@ -42,7 +42,7 @@ social:
   email: woojun0107@naver.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    # - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/JangWoojun       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
