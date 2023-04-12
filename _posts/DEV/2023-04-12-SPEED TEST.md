@@ -125,7 +125,7 @@ class MainActivity : AppCompatActivity() {
 
 랜덤한 시간 이후 반응 속도를 클릭하는 화면으로 바뀌고 여기서 버튼을 누른다면 다시 시작화면으로 바꾸고 이것을 for문을 통해 5번 반복하는 것을 원했었다 하지만...
 
-{% include embed/{youtube}.html id='{xFs88kWmUi8}' %}
+{ % youtube "https://www.youtube.com/watch?v=xFs88kWmUi8&t=10s" % }
 
 해당 코드에 이슈를 정리하면 아래와 같다
 
