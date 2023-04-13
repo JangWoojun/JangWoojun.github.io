@@ -13,11 +13,11 @@ pin: true
 <img width="1440" alt="스크린샷 2022-11-05 오후 10 26 05" src="https://user-images.githubusercontent.com/102157871/200122241-9a1bae2d-12e4-4a55-a036-e48723ce05aa.png">
 
 [반응 속도 테스트](https://play.google.com/store/apps/details?id=com.speedtest.clickgame)는 웹사이트들에서 플레이할 수 있었던 반응속도 테스트를 안드로이드 앱으로 구현한 프로젝트로 
-그 전까지 클론 코딩으로 여러 앱이나 웹을 따라 만들기만 한 내가 진행한 생애 첫 프로젝트이다
+그 전까지 클론 코딩으로 여러 앱이나 웹을 따라 만들기만 한 내가 진행한 생애 첫 프로젝트이다.
 
 - 플랫폼 : 안드로이드/모바일
 - 사용 언어 : Kotlin
-- 진행 기간: 2022.10.12 ~ 2022.10.21 (20일)
+- 진행 기간: 2022. 10. 12 ~ 2022. 10. 21 (20일)
 - 진행 인원: 개인 프로젝트 (1인)
 - [깃허브 리포지토리](https://github.com/JangWoojun/Click_Game)
 - [플레이 스토어](https://play.google.com/store/apps/details?id=com.speedtest.clickgame)
