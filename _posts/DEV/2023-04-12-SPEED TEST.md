@@ -17,7 +17,7 @@ pin: true
 
 - 플랫폼 : 안드로이드/모바일
 - 사용 기술 : Kotlin, ViewBinding
-- 진행 기간: 2022. 10. 02 ~ 2022. 10. 21 (20일)
+- 진행 기간: 2022.10.02 ~ 2022.10.21 (20일)
 - 진행 인원: 개인 프로젝트 (1인)
 - [깃허브 리포지토리](https://github.com/JangWoojun/Click_Game)
 - [플레이 스토어](https://play.google.com/store/apps/details?id=com.speedtest.clickgame)
