@@ -1,0 +1,44 @@
+---
+title: 6월 11일 Today I Learned
+date: 2023-06-11 20:30:55 +/-0000
+categories: [TIL]
+tags: [today i learned]
+toc: true
+---
+
+## 오늘한 일
+
+* 다트(Dart) 언어를 배웠다
+* 블로그 TIL을 작성하였다
+* 1일 1커밋을 하였다
+
+## 느낌 점
+
+오늘 축구를 관람하느라 목표했던 Ai 프렌즈 스쿨 강의 과제릉 모두 끝내지 못하였는데 내일은 또 다시
+학교가는 날이니 내일 학교에서 쉬는 시간마다 조금씩 해서 과제를 모두 끝내야겠다
+
+## 배운 점
+
+### 다트(Dart) if문
+
+~~~dart
+void main() {
+  int number = 10;
+
+  if (number > 0) {
+    print("Number is positive");
+  } else if (number < 0) {
+    print("Number is negative");
+  } else {
+    print("Number is zero");
+  }
+}
+~~~
+
+다트(Dart) 언어에서 if문을 사용하는 법은 다른 프로그래밍 언어인 Kotlin과 Swift, Java 등과 비슷하게
+위와 같은 형태로 헷갈릴 일은 없을 거 같더
+
+## 내일 계획
+
+> 내일은 구글 프렌즈 스쿨 과제를 끝내야겠다
+{: .prompt-tip }
