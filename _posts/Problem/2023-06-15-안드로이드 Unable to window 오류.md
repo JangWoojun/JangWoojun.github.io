@@ -1,5 +1,5 @@
 ---
-title: Android Unable to add window 오류
+title: 안드로이드 Unable to add window 오류
 date: 2023-06-15 23:10:55 +/-0000
 categories: [Problem, Android]
 tags: [android, problem]
