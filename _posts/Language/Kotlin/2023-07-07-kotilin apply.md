@@ -1,5 +1,5 @@
 ---
-title: Kotlin apply
+title: Kotlin apply 문법이란?
 date: 2023-07-07 11:55:55 +/-0000
 categories: [Language, Kotlin]
 tags: [kotlin]
