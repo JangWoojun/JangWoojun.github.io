@@ -7,8 +7,10 @@ toc: true
 pin: true
 ---
 
+# 안드로이드에서 finish()와 finishAffinity() 메서드의 차이점
+
 안드로이드 앱 개발에서 액티비티(Activity)를 종료하는 데는 finish()와 
-finishAffinity()라는 두 가지 메서드가 있다. 이 메서드는 액티비티 스택을 관리하는데 
+finishAffinity()라는 두 가지 메서드가 있다 이 메서드는 액티비티 스택을 관리할 때
 중요한 차이점을 가지고 있는데 finish()와 finishAffinity()의 차이에 대해 알아보면
 
 ## finish()
