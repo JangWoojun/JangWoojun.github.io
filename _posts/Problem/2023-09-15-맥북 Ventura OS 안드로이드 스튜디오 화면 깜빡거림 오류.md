@@ -1,5 +1,5 @@
 ---
-title: 맥북 Ventura 안드로이드 스튜디오, 인텔리제이 화면 깜빡거림 오류
+title: 맥북 Ventura OS 안드로이드 스튜디오, 인텔리제이 화면 깜빡거림 오류
 date: 2023-09-15 22:00:00 +/-0000
 categories: [Problem, Android]
 tags: [android, problem, android studio, intellij]
