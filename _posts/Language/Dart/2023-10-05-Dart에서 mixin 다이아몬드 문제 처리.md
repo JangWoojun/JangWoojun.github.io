@@ -1,5 +1,5 @@
 ---
-title: Dart mixin 다이아몬드 문제 처리
+title: Dart에서 mixin 다이아몬드 문제 처리
 date: 2023-10-05 12:20:55 +/-0000
 categories: [Language, DART]
 tags: [dart]
