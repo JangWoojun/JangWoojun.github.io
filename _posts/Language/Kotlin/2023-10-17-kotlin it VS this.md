@@ -33,15 +33,15 @@ data class User(val name: String, val age: Int)
 ~~~kotlin
 fun main(){
 	val user = User("it", 1)
-	user.let { user ->
-        user.name
+	user.let { userInfo ->
+        userInfo.name
     }
 }
 
 data class User(val name: String, val age: Int)
 ~~~
 
-it 말고 'user'처럼 명시적으로 원하는 대로 바꿔서 사용할 수 있다
+it 말고 'userInfo'처럼 명시적으로 원하는 대로 바꿔서 사용할 수 있다
 
 ## this
 
