@@ -1,6 +1,6 @@
 ---
 title: Kotlin 범위 지정 함수(Scope Functions)
-date: 2023-10-17 20:05:55 +/-0000
+date: 2023-10-19 20:05:55 +/-0000
 categories: [Language, Kotlin]
 tags: [kotlin]
 toc: true
