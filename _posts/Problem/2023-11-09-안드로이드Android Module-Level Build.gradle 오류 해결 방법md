@@ -11,7 +11,7 @@ pin: true
 
 안드로이드에서 local.properties를 사용해서 API 키를 숨기려던 중 아래와 같은 오류 메시지가 발생했다
 
-~~~
+~~~kotlin
 Cause: defaultConfig contains custom BuildConfig fields, but the feature is disabled. To enable the feature, add the following to your module-level build.gradle: `android.buildFeatures.buildConfig true`
 ~~~
 
