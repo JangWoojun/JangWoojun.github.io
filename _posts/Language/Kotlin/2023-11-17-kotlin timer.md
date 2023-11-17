@@ -1,5 +1,5 @@
 ---
-title: Kotlin timer 
+title: Kotlin timer 함수에 대하여
 date: 2023-11-17 20:05:55 +/-0000
 categories: [Language, Kotlin]
 tags: [kotlin]
