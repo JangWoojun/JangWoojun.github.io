@@ -15,7 +15,7 @@ pin: true
 
 기존의 사용하던 ListView의 경우에는 아이템들을 구분하기 위한 구분선을 넣는 기능이 자체적으로 존재했지만 RecyclerView는 존재하지 않아 ItemDecoration을 통해 구현해야한다 
 
-이러한 ItemDecoration은 RecyclerView의 각 아이템에 장식을 추가할 수 있는 클래스로 이를 통해 아이템 간의 구분선을 추가하거나 간격을 조절하는 등의 작업을 할 수 있는 등 ItemDecoration은 RecyclerView의 확장성과 유연성을 증가시켜준다
+이러한 ItemDecoration은 RecyclerView의 각 아이템에 장식을 추가할 수 있는 클래스로 이를 통해 아이템 간의 구분선을 추가하거나 간격을 조절하는 등의 작업을 할 수 있는 등 ItemDecoration은 RecyclerView의 확장성과 유연성을 증가시킬 수 있는데
 
 ## ItemDecoration의 주요 기능 및 구현 방법
 
