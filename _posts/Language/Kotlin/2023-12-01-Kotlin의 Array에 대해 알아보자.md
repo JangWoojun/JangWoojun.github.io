@@ -84,3 +84,78 @@ public class Array<T> {
 ~~~
 
 코드로 Array를 뜯어보면 이렇게 구현되어 있다
+
+## Primitive Type Array
+
+Primitive Type Array 그럼 이건 뭘까? Primitive Type Array는 기본 타입에 Array로 
+
+코틀린은 자바와 달리 모든 것이 객체이지만 성능을 위해 프리미티브 타입 배열을 별도로 제공하며 이는 자바의 Primitive 배열과 비슷하게 동작한다
+
+코틀린의 Primitive Type Array의 종류로는
+
+* ByteArray: Byte 타입의 데이터를 저장한다
+* ShortArray: Short 타입의 데이터를 저장한다
+* IntArray: Int 타입의 데이터를 저장한다
+* LongArray: Long 타입의 데이터를 저장한다
+* FloatArray: Float 타입의 데이터를 저장한다
+* DoubleArray: Double 타입의 데이터를 저장한다
+* CharArray: Char 타입의 데이터를 저장한다
+* BooleanArray: Boolean 타입의 데이터를 저장한다
+
+가 있다
+
+그렇다면 Primitive Type Array는 기존의 코틀린 Array와 뭐가 다를까?
+
+Primitive Type Array는 각각의 타입에 최적화된 메모리 구조를 가지기에 박싱(Boxing) 오버헤드 없이 기본 자료형 값을 저장할 수 있어 성능상에서 이점을 가지며 앞에서 설명했듯이 자바의 int[], float[] 등의 배열로 매칭되며 객체 참조 대신 실제 값들을 메모리에 직접 저장한다
+
+이러한 Primitive Type Array를 선언하는 방법은 아래와 같다
+
+~~~kotlin
+val intArray = IntArray(5) // 크기가 5인 Int 배열 생성
+val byteArray = ByteArray(10) // 크기가 10인 Byte 배열 생성
+~~~
+
+또한 
+
+~~~kotlin
+val intArray = IntArray(5) { i -> i * i } // 각 요소를 제곱수로 초기화
+~~~
+
+이렇게 초기화 식을 사용하여 초기화할 수도 있다
+
+### Array vs Primitive Type Array
+
+Array와 Primitive Type Array를 비교해서 정리해보면 아래와 같다
+
+| 특성              | Array                                  | Primitive Type Array                    |
+|-------------------|----------------------------------------|-----------------------------------------|
+| **타입**          | 제네릭 타입                            | 특정 프리미티브 타입                     |
+| **저장 데이터**   | 객체 또는 객체 참조                    | 프리미티브 타입 값                      |
+| **박싱/언박싱**   | 필요 (각 요소가 객체로 박싱됨)         | 필요 없음 (직접적인 값 저장)             |
+| **메모리 효율성** | 낮음 (추가 메모리 사용)                | 높음 (박싱 오버헤드 없음)                |
+| **성능**          | 박싱/언박싱으로 인해 상대적으로 느림   | 박싱/언박싱이 없어 빠름                 |
+| **사용 예**       | `Array<Int>`, `Array<String>`          | `IntArray`, `ByteArray`, `CharArray` 등 |
+| **생성 방법**     | `arrayOf`, `Array(size) { ... }` 사용  | 예: `IntArray(size)`, `BooleanArray(size)` |
+| **접근 방식**     | 인덱스를 통한 접근, 반복 가능          | 인덱스를 통한 접근, 반복 가능           |
+| **변경 가능성**   | 변경 가능 (가변적)                     | 변경 가능 (가변적)                      |
+| **사용 시나리오** | 다양한 객체를 저장하거나 클래스 타입 배열 필요 시 | 성능이 중요하고 타입이 명확한 숫자 데이터를 다룰 때 |
+| **특별한 기능**   | `Array` 클래스 내장 함수 사용 가능     | 각 타입별 특화된 기능과 연산 제공        |
+| **크기 조정**     | 불가능 (고정된 크기)                   | 불가능 (고정된 크기)                    |
+
+## Array 장단점
+
+마지막으로 Array의 장단점을 살펴보고 끝내보자
+
+### Array 장점
+
+* 요소들을 실행 중에 변경할 수 있기에 동적인 데이터 조작이 가능하다
+
+* 연속된 메모리 공간을 사용하여 메모리 관리가 편리하며 빠르다
+
+### Array 단점
+
+* 배열의 크기를 변경 불가하기에 크기 변경이 필요할 시 다른 컬렉션을 사용해야 한다
+
+* 요소들을 삭제해도 크기가 줄어들지 않기 때문에 메모리가 낭비될 수도 있다
+
+* List나 Set과 같은 다른 컬렉션 타입에 비해 어느 정도 기능이 제한적인 부분이 있다
