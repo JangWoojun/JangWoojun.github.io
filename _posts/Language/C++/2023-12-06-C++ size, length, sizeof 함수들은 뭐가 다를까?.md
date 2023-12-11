@@ -1,7 +1,7 @@
 ---
 title: C++ size, length, sizeof 함수들은 뭐가 다를까?
 date: 2023-12-06 23:00:55 +/-0000
-categories: [Language, Cpp]
+categories: [Language, CPP]
 tags: [cpp]
 toc: true
 pin: true
