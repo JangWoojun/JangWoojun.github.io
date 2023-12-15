@@ -1,5 +1,5 @@
 ---
-title: C++의 Enum 클래스에 대해 알아보자
+title: C++ Enum 클래스 VS enum
 date: 2023-12-15 22:09:55 +/-0000
 categories: [Language, CPP]
 tags: [cpp]
