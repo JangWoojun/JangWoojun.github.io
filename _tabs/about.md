@@ -1,8 +1,4 @@
----
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
----
+
 
 <a href="https://my.surfit.io/w/72920266" target="_blank">
   <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/420ace10-784c-4aa0-a7b1-c065505ccb8d">
