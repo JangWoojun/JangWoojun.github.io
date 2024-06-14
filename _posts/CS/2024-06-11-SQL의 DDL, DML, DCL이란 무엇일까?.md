@@ -1,8 +1,8 @@
 ---
 title: SQL의 DDL, DML, DCL이란 무엇일까?
 date: 2024-06-11 20:00:00 +/-0000
-categories: [CS]
-tags: [CS]
+categories: [CS, Language, SQL]
+tags: [CS, sql]
 toc: true
 pin: true
 ---
