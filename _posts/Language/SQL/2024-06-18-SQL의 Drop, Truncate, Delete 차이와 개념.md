@@ -1,5 +1,5 @@
 ---
-title: SQL의 Drop, Truncate, Delete 차이와 개념.md
+title: SQL의 Drop, Truncate, Delete 차이와 개념
 date: 2024-06-18 21:10:00 +/-0000
 categories: [Language, SQL]
 tags: [sql]
