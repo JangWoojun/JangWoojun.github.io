@@ -1,6 +1,6 @@
 ---
 title: 안드로이드 registerForActivityResult IllegalStateException 오류 해결 방법
-date: 2024-08-10 12:50:00 +/-0000
+date: 2024-08-10 1:50:00 +/-0000
 categories: [Problem, Android]
 tags: [android, problem]
 toc: true
