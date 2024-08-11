@@ -7,14 +7,16 @@ order: 4
 ## Welcome👋
 <img src="https://mblogthumb-phinf.pstatic.net/MjAxODExMDFfMTcw/MDAxNTQxMDQyMDg4MjQ0.B0N974qP_FCEw6Hj28xDjRYXTHU6R7M7pEpvsRKhqlAg.zaTEhwKDfmQql81e44pyBapnlvdO38GdJHME-V_fQkAg.GIF.yellowouk2/1540993661620.GIF?type=w800"/>
 
-Hello, my name is [Jang Woojun](https://my.surfit.io/w/72920266) and I am currently in high school.<br> 
-I am studying steadily every day for my dream of becoming an app developer.
+Hello, I'm [Jang Woojun](https://my.surfit.io/w/72920266), a high school student with a passion for app development. <br>
+I’m dedicated to studying every day to achieve my dream of becoming an app developer.
+
 - 📲 &nbsp; Aspiring App Developer
-- 🏫 &nbsp; High School Student 
-- 📚 &nbsp; Study Every Day
+- 🏫 &nbsp; High School Student
+- 📚 &nbsp; Committed to Daily Study
 
 ## Challenge 🏆
-I am currently challenging Daily Commit<br>
+
+I’m currently taking on the **Daily Commit** challenge! <br>
 If you're interested in my challenges, visit <a href="https://jangwoojun.github.io/"> my github.</a>
 
 ## Stats 👾   
