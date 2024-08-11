@@ -1,13 +1,29 @@
+---
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
+---
+
+## Welcome👋
+<img width="50%" src="https://mblogthumb-phinf.pstatic.net/MjAxODExMDFfMTcw/MDAxNTQxMDQyMDg4MjQ0.B0N974qP_FCEw6Hj28xDjRYXTHU6R7M7pEpvsRKhqlAg.zaTEhwKDfmQql81e44pyBapnlvdO38GdJHME-V_fQkAg.GIF.yellowouk2/1540993661620.GIF?type=w800"/>
+
+Hello, my name is [Jang Woojun](https://my.surfit.io/w/72920266) and I am currently in high school.<br> 
+I am studying steadily every day for my dream of becoming an app developer.
+- 📲 &nbsp; Aspiring App Developer
+- 🏫 &nbsp; High School Student 
+- 📚 &nbsp; Study Every Day
+
+## Challenge 🏆
+I am currently challenging Daily Commit
+
+If you're interested in my challenges, visit <a href="https://jangwoojun.github.io/"> my blog.
 
 
-<a href="https://my.surfit.io/w/72920266" target="_blank">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/420ace10-784c-4aa0-a7b1-c065505ccb8d">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/b26c47f6-6bc7-4838-a7cb-cba36cca5502">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/43b9e2b9-5a43-4c34-bd97-2cb8c8731437">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/06209927-1c61-478d-8d24-4bfe10621848">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/b3e57182-ddc7-4e3d-8b32-5c8f3718d259">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/35589413-e2eb-4e31-81d8-ef81e91378a1">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/943e1ae4-faa6-4993-a64f-93d582fdb275">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/387e0c51-cfa7-4d65-8e11-f8b439745576">
-  <img src="https://github.com/JangWoojun/JangWoojun.github.io/assets/102157871/fe1f4ae7-8cbc-446d-839a-7dd7a2fad42b">
-</a>
+## Stats 👾   
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=Kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=Swift&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>...
+
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jangwoojun&exclude_repo=Machine-Learning,big-data-analysis,Web&hide=html,javascript&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
