@@ -29,27 +29,35 @@ android {
  }
 ~~~
 
-위와 같이 사용하면 되지만
+위와 같이 사용하면 되고
 
-Kotlin-DSL를 사용하는 경우라면 위와 같은 방법으론 해결할 수 없고
+Kotlin-DSL를 사용하는 경우라면 
 
 ~~~kotlin
-import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
-
 android {
-
 	...
-    
-    defaultConfig {
-    
-    	...
-        
- 		buildConfigField("String", "APIKEY", gradleLocalProperties(rootDir).getProperty("apiKey"))
+    val localProperties = Properties()
+    val localPropertiesFile = rootProject.file("local.properties")
+    if (localPropertiesFile.exists()) {
+        localPropertiesFile.inputStream().use { localProperties.load(it) }
+    }	
 
+    val API_KEY = localProperties.getProperty("API_KEY") ?: ""
+
+    defaultConfig {
+        ...
+		
+        buildConfigField("String", "MAPS_API_KEY", "\"$MAPS_API_KEY\"")
+        resValue("string", "MAPS_API_KEY", MAPS_API_KEY)
     }
-    
 }
 ~~~
 
-이런 식으로 처리해야 한다
+이런 식으로 하면 되는데 참고로 이제는 buildConfig를 true로 주지 않으면 오류가 나기에
+꼭 true로 설정하자
 
+~~~kotlin
+buildFeatures {
+	buildConfig = true
+}
+~~~
