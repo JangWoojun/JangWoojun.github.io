@@ -1,8 +1,8 @@
 ---
 title: 안드로이드 Suspension functions can be called only within coroutine body 오류 메시지
 date: 2023-09-10 1:40:00 +/-0000
-categories: [Mobile, Android]
-tags: [android]
+categories: [Problem, Android]
+tags: [android, problem]
 toc: true
 pin: true
 ---

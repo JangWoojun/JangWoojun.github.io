@@ -1,8 +1,8 @@
 ---
 title: 안드로이드 CLEARTEXT communication to XXXX not permitted by network security policy
 date: 2023-09-09 23:00:00 +/-0000
-categories: [Mobile, Android]
-tags: [android]
+categories: [Problem, Android]
+tags: [android, problem]
 toc: true
 pin: true
 ---
