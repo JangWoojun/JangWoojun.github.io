@@ -104,3 +104,7 @@ This work is published under [MIT](https://github.com/cotes2020/jekyll-theme-chi
 
 [jb]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
 [cn-donation]: https://sponsor.cotes.page/
+
+<img width="500" height="500" alt="Gemini_Generated_Image_3uaf203uaf203uaf" src="https://github.com/user-attachments/assets/19ee431c-f81c-482b-a6e1-413f96747b68" />
+
+
